@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: #c9b3a6;
+  color: #020000;  
+}
