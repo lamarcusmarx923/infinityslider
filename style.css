@@ -8,3 +8,9 @@ body {
   background: #c9b3a6;
   color: #020000;  
 }
+
+.menu {
+  height: 100vh;
+  overflow: hidden;
+  background: #fff;
+  cursor: grab;
