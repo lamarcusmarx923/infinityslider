@@ -14,3 +14,12 @@ body {
   overflow: hidden;
   background: #fff;
   cursor: grab;
+
+
+  &.is-dragging {
+    cursor: grabbing;
+  }
+  
+  ul {
+    counter-reset: count;
+  }
