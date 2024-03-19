@@ -23,3 +23,15 @@ body {
   ul {
     counter-reset: count;
   }
+
+  &--item {
+    counter-increment: count;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 120px;
+    line-height: 1.2;
+    padding: 2rem 0;
+    text-align: center;
