@@ -35,3 +35,9 @@ body {
     line-height: 1.2;
     padding: 2rem 0;
     text-align: center;
+
+
+ @media (max-width: 767px) {
+      font-size: 10vw;
+      padding: 1rem 0;
+    }
