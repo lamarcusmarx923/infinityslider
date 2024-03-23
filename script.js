@@ -11,3 +11,10 @@ let scrollSpeed = 0
 let oldScrollY = 0
 let scrollY = 0
 let y = 0
+
+/*--------------------
+Lerp
+--------------------*/
+const lerp = (v0, v1, t) => {
+  return v0 * ( 1 - t ) + v1 * t
+}
